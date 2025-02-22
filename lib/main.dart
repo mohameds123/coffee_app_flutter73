@@ -1,4 +1,5 @@
 import 'package:coffeeuiflutter73/details_screen.dart';
+import 'package:coffeeuiflutter73/home_screen.dart';
 import 'package:coffeeuiflutter73/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home:  DetailsScreen(),
+      home:  HomeScreen(),
     );
   }
 }
